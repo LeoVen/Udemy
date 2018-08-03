@@ -38,5 +38,8 @@ main(int argc, char const *argv[])
 
 	out << "One ring to rule them all\nOne ring to find them and in the darkness bind them\n";
 
+	in.close();
+	out.close();
+
 	return 0;
 }
