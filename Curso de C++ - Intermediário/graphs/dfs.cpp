@@ -12,7 +12,7 @@
 
 class Graph
 {
-	int V;				 // Vertex number
+	int V;				 // Number of vertices
 	std::list<int> *adj; // Adjacency list
   public:
 	Graph(int V);			  // Constructor where V = number of vertices
