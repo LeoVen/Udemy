@@ -41,9 +41,9 @@ int KnapSack(int W, int wt[], int val[], int n)
 
 int main(int argc, char const *argv[])
 {
-	int W = 20;							  // Maximum weight
-	int val[] = {3, 5, 8, 4, 10};		  // Values of each item
-	int wt[] = {2, 4, 5, 3, 9};			  // Weights of each item
+	int W = 20;                           // Maximum weight
+	int val[] = {3, 5, 8, 4, 10};         // Values of each item
+	int wt[] = {2, 4, 5, 3, 9};           // Weights of each item
 	int n = sizeof(val) / sizeof(val[0]); // Number of elements
 
 	int max_value = KnapSack(W, wt, val, n);
