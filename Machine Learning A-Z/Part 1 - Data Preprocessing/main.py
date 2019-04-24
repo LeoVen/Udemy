@@ -54,6 +54,7 @@ X_test = sc_X.transform(X_test)
 
 # Feature scaling on y depends on what model will be used
 
+# Extra
 print(X_train, end='\n\n')
 print(X_test, end='\n\n')
 print(y_train, end='\n\n')
