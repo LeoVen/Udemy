@@ -35,10 +35,11 @@ y_pred = regressor.predict(X_test)
 
 # Extra
 
-# Take the average deviation
-d = np.average([abs(a - b) for a, b in zip(y_pred, y_test)])
-# How many results were right between the average deviation
-sr = sum(1 if np.isclose(a, b, atol=d) else 0 for a, b in zip(y_pred, y_test))
+# Take the average error
+err = np.average([abs(a - b) for a, b in zip(y_pred, y_test)])
+# How many results were right between the average error
+sr = sum(1 if np.isclose(a, b, atol=err)
+         else 0 for a, b in zip(y_pred, y_test))
 
 print(f"{sr} out of {y_test.shape[0]} "
       f"results were relatively close to the actual value")

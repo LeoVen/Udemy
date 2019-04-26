@@ -1,5 +1,8 @@
 # Machine Learning A-Z
 
+0. Introduction
+    * Course contents
+    * Installing python and R
 1. Data Preprocessing
     * Importing libraries
     * Importing datasets
