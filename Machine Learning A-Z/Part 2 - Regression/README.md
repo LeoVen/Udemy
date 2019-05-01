@@ -1,5 +1,14 @@
 # Regression
 
+## Linear Regression
+
+* Simple Linear Regression
+    * `y = b0 + b1*x1`
+* Multiple Linear Regression
+    * `y = b0 + b1*x1 + b2*x2 + ... + bn*xn`
+* Polynomial Linear Regression
+    * `y = b0 + b1*x1^2 + b2*x1^3 + ... + bn*x1^n`
+
 ### Assumptions of a Multiple Linear Regression
 
 * Linearity
