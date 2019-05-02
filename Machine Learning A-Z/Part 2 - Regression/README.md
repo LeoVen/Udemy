@@ -31,3 +31,48 @@
 5. Score Comparison
 
 Stepwise Regression refers to numbers 2, 3 and 4.
+
+## Support Vector Machine
+
+It is a classification technique. It calculates the distance between the support vectors and the hyperplane are as far as possible (maximizing the margin).
+
+* Pros
+    * Good at dealing with high dimensional data
+    * Works well on small data sets
+* Cons
+    * Picking the right kernel and parameters can be computationally intensive
+
+### Parameters
+
+* kernel type
+* C
+* Gamma
+
+### Topics
+
+* Higher dimensions
+* C Parameter
+    * How much to penalize misclassified points (defaults to `1.0`)
+    * Low `C`: Prioritize simplicity
+    * High `C`: Prioritize making few mistakes
+* Multiple classes
+    * OVR: One vs Rest
+        * Pros: Fewer classifications
+        * Cons: Classes may be imbalanced
+    * OVO: One vs One
+        * Pros: Less sensitive to imbalance
+        * Cons: More classifications
+* The Kernel Trick
+* Gamma parameter
+    * Small gamma: Less complexity
+    * Large gamma: More complexity
+* Popular Kernels
+    * Fisher kernel
+    * Graph kernels
+    * Kernel smoother
+    * Polynomial kernel
+    * Radial basis function kernel (RBF)
+    * String kernels
+
+* A type of Support Vector Machine
+    * Support linear and nonlinear regression referred as SVR
